@@ -1,0 +1,38 @@
+{
+    "test_labels": {
+        "image1": "3",
+        "image2": "10",
+        "image3": "20",
+        "image4": "33",
+        "image5": "72",
+        "image6": "129",
+        "image7": "255",
+        "image8": "512",
+        "image9": "1026",
+        "image10": "2056",
+        "image11": "4099",
+        "image12": "8195",
+        "image13": "16384",
+        "image14": "24576",
+        "image15": "32767",
+        "image16": "16385"
+    },
+    "true_labels": {
+        "image1": "8",
+        "image2": "16",
+        "image3": "32",
+        "image4": "64",
+        "image5": "128",
+        "image6": "256",
+        "image7": "512",
+        "image8": "1024",
+        "image9": "2048",
+        "image10": "4096",
+        "image11": "8192",
+        "image12": "16384",
+        "image13": "32768",
+        "image14": "65536",
+        "image15": "131072",
+        "image16": "262144"
+    }
+}

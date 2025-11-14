@@ -1,0 +1,6 @@
+training_curves_digits.png
+*.pkl
+__pycache__/
+*.pth
+main.build
+main.dist

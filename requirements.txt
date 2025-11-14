@@ -1,0 +1,8 @@
+torch
+pennylane
+opencv-python
+tqdm
+matplotlib
+pickle4
+scikit-learn
+nuitka
