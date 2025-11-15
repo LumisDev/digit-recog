@@ -1,7 +1,3 @@
 import subprocess
 
-# Command as a list of strings
-cmd = ["python", "-m", "nuitka", "--mode=app-dist", "--clang", "main.py"]
-
-# Run the command
-result = subprocess.run(cmd)
+subprocess.run(['python', "-m", 'nuitka', '--follow-imports', "--include-data-dir=train_assets=./train_assets", "--include-data-dir=eval_assets=./eval_assets","--mode=app-dist", "--clang", "--enable-plugins=matplotlib", 'main.py'])
